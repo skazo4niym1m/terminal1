@@ -1,0 +1,26 @@
+{
+  "id" : "PR1-B1",
+  "Summary" : "Кнопка “Оформить заказ” не реагирует на клик на странице оформления заказа.",
+  "Project" : "Web site shop.com",
+  "Version" : "1.1",
+  "Severity" : "Blocker",
+  "Priority" : "ASAP",
+  "Status" : "Open",
+  "Author" : "Andryushin A",
+  "Assigned To" : "Daler K",
+  "Description" : {
+    "Precondition" : {
+      "1" : "Зарегистрироваться на сайте shop.com",
+      "2" : "Авторизоваться на сайте"
+    },
+    "Environment" : "MacOS BigSur v:11.2.3. Google Chrome v: 94.0.4606.71 (x86_64)",
+    "Steps to reproduce" : {
+      "1" : "Добавить товар в корзину",
+      "2" : "Зайти в корзину",
+      "3" : "Нажать на кнопку оформить заказ"
+    },
+    "Actual result" : "Кнопка “Оформить заказ” не реагирует на клик.",
+    "Expected result" :"Пользователь перенаправляется на страницу оплаты (Биллинг)"
+  },
+  "Attachment" : "https://drive.google.com/..."
+}
